@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "sass": "^1.80.6"
+  },
+  "scripts": {
+    "build-css": "sass src/main.scss dist/atomix.min.css --style=compressed"
+  }
+}

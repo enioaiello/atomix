@@ -1,0 +1,15 @@
+# Ignore Node.JS dependencies
+/node_modules/
+
+# Ignore generated files
+/*.map
+
+# Ignore the lock file
+/package-lock.json
+
+# Ignore IDE-specific configuration files
+.vscode/
+.idea/
+
+# Ignore the test directory
+/test/
