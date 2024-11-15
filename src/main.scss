@@ -1,12 +1,15 @@
 // Atomix CSS framework
-// Version: 0.0.1
+// Version: 0.0.2
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Faculty+Glyphic&family=Geist+Mono:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 
 // General styles
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: var(--default-font);
   transition: 200ms ease-in-out;
   scroll-behavior: smooth;
 }
@@ -62,6 +65,12 @@
   --light-color-selected: #c3c6ca;
   --dark-color: #343a40;
   --dark-color-selected: #23272b;
+  // Fonts
+  --default-font: 'Lato', sans-serif;
+  --serif-font: 'Faculty Glyphic', serif;
+  --mono-font: 'Geist Mono', monospace;
+  --display-font: 'Sour Gummy', cursive;
+  --dots-font: 'Doto', sans-serif;
 }
 
 ::selection {
@@ -632,6 +641,24 @@
   border: 1px solid var(--dark-color-selected);
   background-color: var(--dark-color-selected);
   color: var(--white-text);
+}
+
+// Fonts
+
+.serif {
+  font-family: var(--serif-font);
+}
+
+.mono {
+  font-family: var(--mono-font);
+}
+
+.display {
+  font-family: var(--display-font);
+}
+
+.dots {
+  font-family: var(--dots-font);
 }
 
 // Responsive styles
