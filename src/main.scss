@@ -1,5 +1,5 @@
 // Atomix CSS framework
-// Version: 0.0.2
+// Version: 0.0.3
 
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Faculty+Glyphic&family=Geist+Mono:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
@@ -53,6 +53,7 @@
   // Default buttons
   --button-width: 100px;
   --button-height: 40px;
+  // Special color
   --success-color: #28a745;
   --success-color-selected: #218838;
   --danger-color: #dc3545;
@@ -109,6 +110,7 @@
 }
 
 .link {
+  display: inline-block;
   color: var(--primary-color);
   text-decoration: none;
 }
@@ -446,18 +448,31 @@
   font-size: 1rem;
 }
 
-
-.button.denied {
+.button.denied-line {
   background-color: transparent;
   border: 1px solid var(--denied);
   color: var(--denied);
   cursor: not-allowed;
 }
 
-.button.denied:hover {
+.button.denied-line:hover {
   background-color: transparent;
   border: 1px solid var(--denied);
   color: var(--denied);
+  cursor: not-allowed;
+}
+
+.button.denied-full {
+  background-color: var(--denied);
+  border: 1px solid var(--denied);
+  color: var(--white);
+  cursor: not-allowed;
+}
+
+.button.denied-full:hover {
+  background-color: var(--denied);
+  border: 1px solid var(--denied);
+  color: var(--white);
   cursor: not-allowed;
 }
 
@@ -659,6 +674,69 @@
 
 .dots {
   font-family: var(--dots-font);
+}
+
+// Alert styles
+
+.alert {
+  width: 95%;
+  margin: 1vh auto;
+  padding: 1%;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-selected);
+  border-radius: var(--border-radius);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .icon {
+    display: flex;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+    font-size: 2rem;
+  }
+
+  .content {
+    width: 100%;
+    text-align: left;
+  }
+}
+
+.alert.success {
+  background-color: var(--success-color);
+  border: 1px solid var(--success-color-selected);
+}
+
+.alert.danger {
+  background-color: var(--danger-color);
+  border: 1px solid var(--danger-color-selected);
+}
+
+.alert.warning {
+  background-color: var(--warning-color);
+  border: 1px solid var(--warning-color-selected);
+}
+
+.alert.info {
+  background-color: var(--info-color);
+  border: 1px solid var(--info-color-selected);
+}
+
+.alert.light {
+  background-color: var(--light-color);
+  border: 1px solid var(--light-color-selected);
+  color: var(--dark-color);
+}
+
+.alert.dark {
+  background-color: var(--dark-color);
+  border: 1px solid var(--dark-color-selected);
+}
+
+.alert.close {
+  cursor: pointer;
 }
 
 // Responsive styles
