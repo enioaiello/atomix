@@ -1,10 +1,8 @@
 # Atomix
 
-**Atomix** is a lightweight, modular CSS framework designed to streamline the creation of responsive, customizable web interfaces with pre-built components.
-
 ## Introduction
 
-**Atomix** is a CSS framework for simple, yet powerful website design.
+**Atomix** is a lightweight, modular CSS framework designed to streamline the creation of responsive, customizable web interfaces with pre-built components.
 
 ## Installation
 
