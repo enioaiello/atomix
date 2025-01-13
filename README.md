@@ -7,7 +7,7 @@
 ## Installation
 
 To install **Atomix**, simply use the following HTML code in the `<head>` section of your website:
-    
+
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/enioaiello/atomix/dist/atomix.min.css">
 ```
