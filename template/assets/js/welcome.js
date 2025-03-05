@@ -1,0 +1,1 @@
+console.log("Welcome to your new Atomix installation!");
