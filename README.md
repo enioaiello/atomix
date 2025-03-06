@@ -32,7 +32,7 @@ npm run build-css
 
 ## Usage
 
-**Atomix** is designed to be simple and easy to use. If you are new to **Atomix**, check out the [documentation](enioaiello.gitbook.io/atomix/) for more information.
+**Atomix** is designed to be simple and easy to use. If you are new to **Atomix**, check out the [documentation](https://enioaiello.gitbook.io/atomix/) for more information.
 
 ## License
 
