@@ -1,0 +1,165 @@
+.title.small {
+    font-size: var(--small-title);
+}
+
+.subtitle.small {
+    font-size: var(--small-subtitle);
+}
+
+.paragraph.small {
+    font-size: var(--small-paragraph);
+}
+
+.link.small {
+    font-size: var(--small-paragraph);
+}
+
+.title.normal,
+.title {
+    font-size: var(--normal-title);
+}
+
+.subtitle.normal,
+.subtitle {
+    font-size: var(--normal-subtitle);
+}
+
+.paragraph.normal,
+.paragraph {
+    font-size: var(--normal-paragraph);
+}
+
+.link.normal,
+.link {
+    font-size: var(--normal-paragraph);
+}
+
+.title.big {
+    font-size: var(--big-title);
+}
+
+.subtitle.big {
+    font-size: var(--big-subtitle);
+}
+
+.paragraph.big {
+    font-size: var(--big-paragraph);
+}
+
+.title.bigger {
+    font-size: var(--biggest-title);
+}
+
+.subtitle.bigger {
+    font-size: var(--biggest-subtitle);
+}
+
+.paragraph.bigger {
+    font-size: var(--bigger-paragraph);
+}
+
+.title.biggest {
+    font-size: var(--biggest-title);
+}
+
+.subtitle.biggest {
+    font-size: var(--biggest-subtitle);
+}
+
+.paragraph.biggest {
+    font-size: var(--biggest-paragraph);
+}
+
+.small .link {
+    font-size: var(--small-paragraph);
+}
+  
+.normal .link {
+    font-size: var(--normal-paragraph);
+}
+  
+.big .link {
+    font-size: var(--big-paragraph);
+}
+  
+.bigger .link {
+    font-size: var(--bigger-paragraph);
+}
+  
+.biggest .link {
+    font-size: var(--biggest-paragraph);
+}
+  
+.link {
+    display: inline-block;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+  
+.link:hover {
+    color: var(--primary-selected);
+}
+
+.title.bold {
+    font-weight: bold;
+}
+
+.subtitle.bold {
+    font-weight: bold;
+}
+
+.paragraph.bold {
+    font-weight: bold;
+}
+
+.link.bold {
+    font-weight: bold;
+}
+
+.title.italic {
+    font-style: italic;
+}
+
+.subtitle.italic {
+    font-style: italic;
+}
+
+.paragraph.italic {
+    font-style: italic;
+}
+
+.link.italic {
+    font-style: italic;
+}
+
+.title.underline {
+    text-decoration: underline;
+}
+
+.subtitle.underline {
+    text-decoration: underline;
+}
+
+.paragraph.underline {
+    text-decoration: underline;
+}
+
+.link.underline {
+    text-decoration: underline;
+}
+
+.serif {
+    font-family: var(--serif-font);
+}
+  
+.mono {
+    font-family: var(--mono-font);
+}
+  
+.display {
+    font-family: var(--display-font);
+}
+  
+.dots {
+    font-family: var(--dots-font);
+}

@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--default-font);
+    transition: 200ms ease-in-out;
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+  
+.body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--white-background);
+    color: var(--black-text);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

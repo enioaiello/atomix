@@ -1,0 +1,42 @@
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 1.5vh 5vw;
+    }
+
+    .navbar .brand .link .title {
+        font-size: var(--normal-paragraph);
+    }
+
+    .navbar .menu .item .link {
+        font-size: var(--normal-paragraph);
+    }
+
+    .navbar .icons .icon {
+        font-size: var(--normal-paragraph);
+    }
+
+    .main {
+        width: 90%;
+    }
+
+    .button {
+        padding: 0.6em 1.2em;
+        min-width: 100px;
+        font-size: 0.9rem;
+        border-radius: 4px;
+    }
+
+    .button.primary,
+    .button.secondary,
+    .button.tertiary,
+    .button.success,
+    .button.danger,
+    .button.warning,
+    .button.info,
+    .button.light,
+    .button.dark {
+        padding: 0.6em 1.2em;
+        min-width: 100px;
+        font-size: 0.9rem;
+    }
+}

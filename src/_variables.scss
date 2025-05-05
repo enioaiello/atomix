@@ -1,0 +1,61 @@
+:root {
+    // Couleurs
+    --primary-color: #40798c;
+    --primary-selected: #2f5d6e;
+    --secondary-color: #f4a261;
+    --secondary-selected: #e76f51;
+    --tertiary-color: #2a9d8f;
+    --tertiary-selected: #206a5d;
+    --black-text: #333;
+    --white-text: #fff;
+    --black-background: #333;
+    --white-background: #fff;
+    --black: #000;
+    --white: #fff;
+    --denied: #808080ff;
+    // Polices
+    --small-paragraph: 1.0rem;
+    --normal-paragraph: 1.4rem;
+    --big-paragraph: 1.7rem;
+    --bigger-paragraph: 2.2rem;
+    --biggest-paragraph: 3.0rem;
+    --small-subtitle: 1.4rem;
+    --normal-subtitle: 2.2rem;
+    --big-subtitle: 3.0rem;
+    --biggest-subtitle: 3.3rem;
+    --small-title: 2.2rem;
+    --normal-title: 3.0rem;
+    --big-title: 4.6rem;
+    --biggest-title: 6.2rem;
+    // Espacements
+    --small-spacing: 0.8rem;
+    --normal-spacing: 1.6rem;
+    --big-spacing: 3.2rem;
+    // Divers
+    --default-height-box: 9vh;
+    // Bouttons
+    --button-width: 100px;
+    --button-height: 40px;
+    // Couleurs spéciales
+    --success-color: #28a745;
+    --success-color-selected: #218838;
+    --danger-color: #dc3545;
+    --danger-color-selected: #c82333;
+    --warning-color: #ffc107;
+    --warning-color-selected: #e0a800;
+    --info-color: #17a2b8;
+    --info-color-selected: #138496;
+    --light-color: #f8f9fa;
+    --light-color-selected: #c3c6ca;
+    --dark-color: #343a40;
+    --dark-color-selected: #23272b;
+    // Polices
+    --default-font: 'Lato', sans-serif;
+    --serif-font: 'Faculty Glyphic', serif;
+    --mono-font: 'Geist Mono', monospace;
+    --display-font: 'Sour Gummy', cursive;
+    --dots-font: 'Doto', sans-serif;
+    // Radius
+    --border-radius: 0.4rem;
+    --rounded-radius: 50%;
+  }

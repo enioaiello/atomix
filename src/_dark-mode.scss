@@ -1,0 +1,39 @@
+.body.dark {
+    background-color: var(--black-background);
+    color: var(--white-text);
+
+    .header {
+        background-color: var(--black-background);
+        color: var(--white-text);
+    }
+
+    .navbar .brand .link .title {
+        color: var(--white-text);
+    }
+
+    .navbar .menu .item .link {
+        color: var(--white-text);
+    }
+
+    .navbar .icons .icon {
+        color: var(--white-text);
+    }
+
+    .navbar .icons .icon:hover {
+        color: var(--primary-color);
+    }
+
+    .main {
+        background-color: var(--black-background);
+        color: var(--white-text);
+    }
+
+    .line {
+        background-color: var(--white-text);
+    }
+
+    .footer {
+        background-color: var(--black-background);
+        color: var(--white-text);
+    }
+}
