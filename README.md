@@ -2,21 +2,21 @@
 
 ## Introduction
 
-**Atomix** is a lightweight, modular CSS framework designed to streamline the creation of responsive, customizable web interfaces with pre-built components.
+**Atomix** est un framework CSS léger et modulaire conçu pour simplifier la création d'interfaces web réactives et personnalisables. Il offre une collection de composants préconstruits et faciles à intégrer.
 
 ## Installation
 
-To install **Atomix**, simply use the following HTML code in the `<head>` section of your website:
-    
+Pour installer **Atomix**, ajoutez simplement le lien suivant dans la section `<head>` de votre site web :
+
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/enioaiello/atomix/dist/atomix.min.css">
 ```
 
-Alternatively, you can download the latest release from the [releases page](https://github.com/enioaiello/atomix/releases) and include it in your project.
+Vous pouvez également télécharger la dernière version depuis la [page des versions](https://github.com/enioaiello/atomix/releases) et l'inclure manuellement dans votre projet.
 
-## Development
+## Contribution au développement
 
-To contribute to **Atomix**, you can clone the repository and install the dependencies using the following commands:
+Si vous souhaitez contribuer à **Atomix**, commencez par cloner le dépôt et installer les dépendances avec les commandes suivantes :
 
 ```bash
 git clone https://github.com/enioaiello/atomix.git
@@ -24,16 +24,16 @@ cd atomix
 npm install
 ```
 
-After installing the dependencies and modifying the scss file, you can build the project using the following command:
+Après avoir modifié les fichiers SCSS, vous pouvez générer le fichier CSS en exécutant :
 
 ```bash
 npm run build-css
 ```
 
-## Usage
+## Documentation et utilisation
 
-**Atomix** is designed to be simple and easy to use. If you are new to **Atomix**, check out the [documentation](https://enioaiello.gitbook.io/atomix/) for more information.
+**Atomix** est conçu pour être intuitif et rapide à prendre en main. Consultez la [documentation officielle](https://enioaiello.gitbook.io/atomix/) pour découvrir les fonctionnalités, les exemples d'utilisation et les bonnes pratiques.
 
-## License
+## Licence
 
-**Atomix** is licensed under the [MIT License](LICENSE).
+Ce projet est distribué sous la [licence MIT](LICENSE). Vous êtes libre de l'utiliser, de le modifier et de le partager dans le respect des termes de cette licence.
