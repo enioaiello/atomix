@@ -1,6 +1,8 @@
-# Atomix
+<p align="center">
+    <img src="assets/images/logo.png" alt="Logo d'Atomix" height="128">
+</p>
 
-## Introduction
+## À propos d'Atomix
 
 **Atomix** est un framework CSS léger et modulaire conçu pour simplifier la création d'interfaces web réactives et personnalisables. Il offre une collection de composants préconstruits et faciles à intégrer.
 
